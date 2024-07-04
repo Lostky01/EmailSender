@@ -1,0 +1,10 @@
+
+# this is only used for test, you must install rest extensions on vscode to use this and send api test without api tools
+POST http://localhost:5000/send-email
+Content-Type: application/json
+
+{
+  "name": "person_name",
+  "email": "person_you_want_to_email@domain.com",
+  "content": "Welcome to our service!"
+}
